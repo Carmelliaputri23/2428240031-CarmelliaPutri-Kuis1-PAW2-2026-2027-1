@@ -1,0 +1,95 @@
+{
+  "info": {
+    "_postman_id": "377cceed-623f-4376-b6f8-667d34b5cc1a",
+    "name": "Manajemen Data Wisata",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58635087",
+    "_collection_link": "https://go.postman.co/collection/58635087-377cceed-623f-4376-b6f8-667d34b5cc1a?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Tambah Wisata",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Ambil Semua Wisata",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/wisata",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "wisata"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Ambil Detail Wisata",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/wisata/6ad107207c20c5dcf0e2fe03",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "wisata",
+            "6ad107207c20c5dcf0e2fe03"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Perbarui Wisata",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Hapus Wisata",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/wisata/6ad107207c20c5dcf0e2fe03",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "wisata",
+            "6ad107207c20c5dcf0e2fe03"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
